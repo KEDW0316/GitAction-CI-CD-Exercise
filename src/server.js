@@ -4,7 +4,7 @@ import globalRouter from "./routers/globalRouter";
 import videoRouter from "./routers/videoRouter";
 import userRouter from "./routers/userRouter";
 
-const PORT = 4000;
+const PORT = 3000;
 
 console.log(process.cwd());
 
