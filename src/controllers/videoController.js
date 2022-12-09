@@ -4,8 +4,8 @@ const fakeUser = {
 };
 
 export const login = (req, res) => {
-  // fakeUser.loggedIn = true;
-  // res.render("home", { pageTitle: "Home", fakeUser });
+  fakeUser.loggedIn = true;
+  res.render("home", { pageTitle: "Home", fakeUser });
 };
 
 export const trending = (req, res) =>
